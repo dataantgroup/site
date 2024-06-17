@@ -11,7 +11,7 @@ banner:
     link: "#"
 feature:
   enable: true
-  title: Something You Need To Know (Test)
+  title: Something You Need To Know (Test,test)
   feature_item:
   - name: Clean Code
     icon: ti-pulse
