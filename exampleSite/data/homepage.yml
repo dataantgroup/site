@@ -31,6 +31,13 @@ feature:
   - name: Cloud Support
     icon: ti-cloud-up
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+  - name: Download Our PDF
+    icon: ti-file
+    content: Click the button below to download our PDF
+    button:
+      enable: true
+      label: Download PDF
+      link: images/jetbot.pdf
 service:
   enable: true
   service_item:
