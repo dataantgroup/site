@@ -43,20 +43,20 @@ name = "Blog"
 URL = "blog"
 weight = 1
 
-[[menu.main]]
-name = "Pricing"
-URL = "pricing"
-weight = 2
+# [[menu.main]]
+# name = "Pricing"
+# URL = "pricing"
+# weight = 2
 
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 3
+# [[menu.main]]
+# name = "Contact"
+# URL = "contact"
+# weight = 3
 
-[[menu.main]]
-name = "FAQ"
-URL = "faq"
-weight = 4
+# [[menu.main]]
+# name = "FAQ"
+# URL = "faq"
+# weight = 4
 
 # footer menu left
 [[menu.footer_left]]
@@ -67,15 +67,15 @@ URL = "#"
 name = "Quick Start"
 URL = "#"
 
-[[menu.footer_left]]
-name = "Pricing"
-URL = "pricing"
+# [[menu.footer_left]]
+# name = "Pricing"
+# URL = "pricing"
 
 
 # footer menu middle
-[[menu.footer_middle]]
-name = "Pricing"
-URL = "pricing"
+# [[menu.footer_middle]]
+# name = "Pricing"
+# URL = "pricing"
 
 [[menu.footer_middle]]
 name = "Platform"
@@ -86,17 +86,17 @@ name = "Features"
 URL = "#"
 
 # footer menu right
-[[menu.footer_right]]
-name = "Privacy Policy"
-URL = "privacy-policy"
+# [[menu.footer_right]]
+# name = "Privacy Policy"
+# URL = "privacy-policy"
 
-[[menu.footer_right]]
-name = "Terms & Conditions"
-URL = "terms-conditions"
+# [[menu.footer_right]]
+# name = "Terms & Conditions"
+# URL = "terms-conditions"
 
-[[menu.footer_right]]
-name = "FAQ"
-URL = "faq"
+# [[menu.footer_right]]
+# name = "FAQ"
+# URL = "faq"
 
 #################### default parameters ################################
 [params]
@@ -109,10 +109,10 @@ author = "Themefisher"
 contact_form_action = "#" # contact form works with https://formspree.io
 
 ########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Product"
-footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+# footer_menu_left = "Company"
+# footer_menu_middle = "Product"
+# footer_menu_right = "Support"
+# footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
 # copyright
 copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
 
