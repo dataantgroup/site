@@ -7,8 +7,8 @@ banner:
     laborum officiis necessitatibus
 banner_2:
   title: Contact Us
-  image_1: images/
-  image_2: images/
+  image_1: images/front_jo.svg
+  image_2: images/front_patrick.svg
   content: Feel free to connect with us to discuss further.
 feature:
   enable: true
