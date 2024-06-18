@@ -35,9 +35,18 @@
         <div><a href="{{ .link | safeURL }}" class="btn btn-primary">{{ .label }}</a></div>
         {{ end }}
         {{ end }}
-
-        {{with .image_1}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}
-        {{with .image_2}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}
+        <div class="row mt-5">
+          <div class="col-md-6">
+            {{ with .image_1 }}
+            <img src="{{ . | absURL }}" class="img-fluid" alt="Image 1">
+            {{ end }}
+          </div>
+          <div class="col-md-6">
+            {{ with .image_2 }}
+            <img src="{{ . | absURL }}" class="img-fluid" alt="Image 2">
+            {{ end }}
+          </div>
+        </div>
       </div>
     </div>
   </div>
