@@ -5,10 +5,11 @@ banner:
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim
     maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque
     laborum officiis necessitatibus
-  button:
-    enable: true
-    label: Contact With Us
-    link: "#"
+banner_2:
+  title: Contact Us
+  image_1: images/
+  image_2: images/
+  content: Feel free to connect with us to discuss further.
 feature:
   enable: true
   title: Something You Need To Know (Test,test)

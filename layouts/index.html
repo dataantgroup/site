@@ -22,6 +22,29 @@
 {{ end }}
 <!-- /banner -->
 
+<!-- banner_2 -->
+{{ with site.Data.homepage.banner_2 }}
+<section class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="mb-3">{{ .title | markdownify }}</h1>
+        <p class="mb-4">{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <div><a href="{{ .link | safeURL }}" class="btn btn-primary">{{ .label }}</a></div>
+        {{ end }}
+        {{ end }}
+
+        {{with .image_1}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}
+        {{with .image_2}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /banner_2 -->
+
 <!-- feature -->
 {{ if site.Data.homepage.feature.enable }}
 {{ with site.Data.homepage.feature }}
