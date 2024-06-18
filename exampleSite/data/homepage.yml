@@ -2,9 +2,7 @@
 banner:
   title: Data Ant Group
   image: images/jetbot.pdf
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim
-    maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque
-    laborum officiis necessitatibus
+  content: Welcome
 banner_2:
   title: Contact Us
   image_1: images/front_jo.svg
@@ -12,7 +10,7 @@ banner_2:
   content: Feel free to connect with us to discuss further.
 feature:
   enable: true
-  title: Something You Need To Know (Test,test)
+  title: Something You Need To Know
   feature_item:
   - name: Clean Code
     icon: ti-pulse
@@ -32,13 +30,6 @@ feature:
   - name: Cloud Support
     icon: ti-cloud-up
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
-  - name: Download Our PDF
-    icon: ti-file
-    content: Click the button below to download our PDF
-    button:
-      enable: true
-      label: Download PDF
-      link: images/jetbot.pdf
 service:
   enable: true
   service_item:
