@@ -63,9 +63,9 @@ export default function ElearningCourseView() {
       >
         <Grid container spacing={{ xs: 5, md: 8 }}>
           {!mdUp && (
-            <Grid xs={12}>
+            {/* <Grid xs={12}>
               <ElearningCourseDetailsInfo course={_mockCourse} />
-            </Grid>
+            </Grid> */}
           )}
 
           <Grid xs={12} md={7} lg={8}>

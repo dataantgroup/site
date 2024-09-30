@@ -35,12 +35,11 @@ export const _courses = [...Array(12)].map((_, index) => {
     'Beginner';
 
   const learnList = [
-    'A fermentum in morbi pretium aliquam adipiscing donec tempus.',
-    'Vulputate placerat amet pulvinar lorem nisl.',
-    'Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.',
-    'Etiam duis lobortis in fames ultrices commodo nibh.',
-    'Fusce neque. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit.',
-    'Curabitur a felis in nunc fringilla tristique. Praesent congue erat at massa.',
+    'You will learn the fundamentals of robotics, including key components such as sensors, actuators, and controllers.',
+    'You will explore essential AI concepts, focusing on machine learning and computer vision techniques.',
+    'You will acquire Python programming skills by working with libraries like NumPy and OpenCV for robotics applications.',
+    'You will engage in hands-on projects with the NVIDIA JetBot, including tasks like path following and object detection.',
+    'You will discover real-world applications of robotics and AI, which will enhance your problem-solving skills through practical experience.',
   ];
 
   return {
@@ -63,7 +62,7 @@ export const _courses = [...Array(12)].map((_, index) => {
     coverUrl: _mock.image.course(index),
     ratingNumber: _mock.number.rating(index),
     description: _mock.description(index),
-    price: (index % 2 && 159.99) || 269.99,
+    price: (index % 2 && 100) || 100,
     priceSale: (index === 2 && 89.99) || (index === 5 && 69.99) || 0,
     shareLinks: {
       facebook: `facebook/user-name`,

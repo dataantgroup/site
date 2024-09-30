@@ -59,8 +59,8 @@ const base = (index) => ({
     avatarUrl: _mock.image.avatar(index),
     // quotes: 'Member since Mar 15, 2021',
     about:
-      'Kwai Wong\'s research interests include multiphysics simulations on large scale parallel computers, finite element formulations for computational fluid dynamics, parallel direct and sparse solvers for systems of linear equations, numerical linear algebra implementation on GPUs and scalable software framework for multi-disciplinary biomedical simulations.',
-  },
+      'Development, Engineering; MSc, Computer Engineering, UTK, USA; MSc, Electrical and Electronic Engineering, HKU; BEng, Electronic Engineering, CityU',
+    },
 });
 
 // ----------------------------------------------------------------------

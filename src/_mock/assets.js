@@ -111,7 +111,7 @@ export const _emails = [
 // ----------------------------------------------------------------------
 
 export const _fullNames = [
-  'Dr. Wong Kwai',
+  // 'Dr. Wong Kwai',
   'Patrick Lau',
   'Jo Chow',
   'Kenny Wong',
@@ -258,7 +258,7 @@ export const _phoneNumbers = [
 // ----------------------------------------------------------------------
 
 export const _roles = [
-  'CEO',
+  // 'CEO',
   'Technologist',
   'Project Coordinator',
   'Developer',

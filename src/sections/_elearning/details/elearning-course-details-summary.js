@@ -46,7 +46,7 @@ export default function ElearningCourseDetailsSummary({ course }) {
         </Stack>
       </Stack>
 
-      <Stack spacing={3}>
+      {/* <Stack spacing={3}>
         <Typography variant="h4">Skills You Will Gain</Typography>
 
         <Stack direction="row" flexWrap="wrap" spacing={1}>
@@ -54,7 +54,7 @@ export default function ElearningCourseDetailsSummary({ course }) {
             <Chip key={skill} label={skill} size="small" variant="soft" onClick={() => {}} />
           ))}
         </Stack>
-      </Stack>
+      </Stack> */}
 
       {/* <Stack spacing={2}>
         <Typography variant="h4">Overview</Typography>
