@@ -146,7 +146,7 @@ export default function Footer() {
             </Stack>
           </Grid>
 
-          <Grid xs={12} md={6}>
+          {/* <Grid xs={12} md={6}>
             {mdUp ? (
               <Masonry columns={4} spacing={2} defaultColumns={4} defaultSpacing={2}>
                 {renderLists.map((list) => (
@@ -160,7 +160,7 @@ export default function Footer() {
                 ))}
               </Stack>
             )}
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
 

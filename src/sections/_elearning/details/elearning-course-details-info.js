@@ -16,7 +16,7 @@ export default function ElearningCourseDetailsInfo({ course }) {
   return (
     <Card sx={{ p: 3, borderRadius: 2 }}>
       <Stack spacing={3}>
-        <Stack direction="row" sx={{ typography: 'h3' }}>
+        {/* <Stack direction="row" sx={{ typography: 'h3' }}>
           {!!course.priceSale && (
             <Box
               component="span"
@@ -31,7 +31,7 @@ export default function ElearningCourseDetailsInfo({ course }) {
             </Box>
           )}
           {fCurrency(course.price)}
-        </Stack>
+        </Stack> */}
 
         <Stack spacing={2}>
           <Typography>This course includes:</Typography>

@@ -47,7 +47,7 @@ export default function ElearningAboutCoreValues() {
       }}
     >
       <Container>
-        <Stack
+        {/* <Stack
           spacing={3}
           direction={{ xs: 'column', md: 'row' }}
           justifyContent={{ md: 'space-between' }}
@@ -61,7 +61,7 @@ export default function ElearningAboutCoreValues() {
           <Typography sx={{ color: 'text.secondary', maxWidth: { md: 540 } }}>
             By adopting these core values, our bootcamp offers a well-rounded and enriching educational experience that equips students to become pioneering, high-achieving, cooperative, and influential leaders in the tech sector.
           </Typography>
-        </Stack>
+        </Stack> */}
 
         <Grid container spacing={8}>
           {CORE_VALUES.map((value) => (
