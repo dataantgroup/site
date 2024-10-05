@@ -71,7 +71,7 @@ export default function ElearningLandingHero() {
                   <Box component="span" sx={{ color: 'primary.main', textDecoration: 'underline' }}>
                     {` Technological Discovery`}
                   </Box>
-                   {' '} emerging AI immersion
+                   {' '} emerging AI solutions
                 </Typography>
 
                 <Typography sx={{ color: 'text.secondary', mt: 3, mb: 5 }}>
