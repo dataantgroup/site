@@ -64,14 +64,14 @@ export default function ElearningLandingHero() {
                 }}
               >
                 <Typography variant="h2">
-                  Empower
+                  Empower the future:
                   <Box component="span" sx={{ color: 'text.disabled' }}>
-                    {` Future `}
+                    {` building sustainable eco-friendly AI solutions `}
                   </Box>
                   <Box component="span" sx={{ color: 'primary.main', textDecoration: 'underline' }}>
-                    {` Technological Discovery`}
+                    {` for transformative innovation`}
                   </Box>
-                   {' '} emerging AI solutions
+                   {' '} and discovery
                 </Typography>
 
                 <Typography sx={{ color: 'text.secondary', mt: 3, mb: 5 }}>
