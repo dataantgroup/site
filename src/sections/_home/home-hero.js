@@ -45,10 +45,7 @@ export default function ElearningLandingHero() {
             color: alpha(theme.palette.background.default, 0.9),
             imgUrl: '/assets/background/overlay_1.jpg',
           }),
-          overflow: 'hidden',
-          paddingTop: { xs: 10000, md: 0 },
-          marginTop: { xs: 10, md: 0 },
-          position: 'relative'
+          overflow: 'hidden'
         }}
       >
         <Container
