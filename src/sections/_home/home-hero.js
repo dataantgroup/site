@@ -46,6 +46,9 @@ export default function ElearningLandingHero() {
             imgUrl: '/assets/background/overlay_1.jpg',
           }),
           overflow: 'hidden',
+          paddingTop: { xs: 10000, md: 0 },
+          marginTop: { xs: 10, md: 0 },
+          position: 'relative'
         }}
       >
         <Container
@@ -66,12 +69,23 @@ export default function ElearningLandingHero() {
                 <Typography variant="h2">
                   Empower the future:
                   <Box component="span" sx={{ color: 'text.disabled' }}>
-                    {` building sustainable eco-friendly AI solutions `}
+                    {` building sustainable eco-friendly `}
                   </Box>
                   <Box component="span" sx={{ color: 'primary.main', textDecoration: 'underline' }}>
-                    {` for transformative innovation`}
+                    {` AI solutions `}
                   </Box>
-                   {' '} and discovery
+                  <Box component="span" sx={{ color: 'text.disabled' }}>
+                  {'for'}
+                  </Box>
+                  <Box component="span" sx={{ color: 'primary.main', textDecoration: 'underline' }}>
+                    {` transformative innovation `}
+                  </Box>
+                  <Box component="span" sx={{ color: 'text.disabled' }}>
+                  {' and'} 
+                  </Box>
+                  <Box component="span" sx={{ color: 'primary.main', textDecoration: 'underline' }}>
+                    {` discovery`}
+                  </Box>
                 </Typography>
 
                 <Typography sx={{ color: 'text.secondary', mt: 3, mb: 5 }}>

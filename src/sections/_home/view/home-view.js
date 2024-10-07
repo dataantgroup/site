@@ -26,7 +26,9 @@ export default function HomeView() {
     <>
       <ScrollProgress scrollYProgress={scrollYProgress} />
 
-      <HomeHero />
+      <div style={{ paddingTop: '70px' }}> {/* Adjust this value as needed */}
+        <HomeHero />
+      </div>
 
       {/* <HomeNewStart /> */}
 
