@@ -143,7 +143,7 @@ export default function HomeFAQs() {
                 size="large"
                 color="inherit"
                 variant="contained"
-                href="mailto:support@minimals.cc?subject=[Feedback] from Customer"
+                href="mailto:dataantgroup@gmail.com"
               >
                 Contact us
               </Button>

@@ -58,7 +58,7 @@ export default function NavMobile({ data }) {
             ))}
           </List>
 
-          <Stack spacing={1.5} sx={{ p: 3 }}>
+          {/* <Stack spacing={1.5} sx={{ p: 3 }}>
             <Button
               fullWidth
               variant="contained"
@@ -69,7 +69,7 @@ export default function NavMobile({ data }) {
             >
               Buy Now
             </Button>
-          </Stack>
+          </Stack> */}
         </Scrollbar>
       </Drawer>
     </>

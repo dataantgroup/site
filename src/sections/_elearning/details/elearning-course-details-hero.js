@@ -64,7 +64,7 @@ export default function ElearningCourseDetailsHero({ course }) {
           <CustomBreadcrumbs
             links={[
               { name: 'Home', href: '/' },
-              { name: 'Courses', href: paths.eLearning.courses },
+              { name: 'Courses' },//, href: paths.eLearning.courses
               { name: course.slug || '' },
             ]}
             sx={{
