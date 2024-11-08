@@ -4,45 +4,52 @@ import { _tags } from './assets';
 // ----------------------------------------------------------------------
 
 const content = (name) => `
-<p>In recent years, technological advancements have opened new avenues for enhancing the lives of individuals with disabilities. One of the most promising innovations is the development of robotic dogs integrated with advanced artificial intelligence, specifically designed to assist blind and visually impaired individuals. This groundbreaking project aims to combine the loyalty of a traditional guide dog with the intelligence and adaptability of modern robotics.</p>
+<h3>Revolutionizing Independence Through Innovation</h3>
+<p>For visually impaired individuals, traditional guide dogs have long provided critical support. However, the training process is time-consuming and costly, and guide dogs have a limited working lifespan, often only 6-10 years. Due to these limitations, many individuals in need lack access to this essential service.
+
+Our LLM-Driven Quadruped Robot for Visually Impaired Guidance provides a scalable, reliable alternative. Equipped with advanced AI and robotic technology, it offers 24/7 support, requiring minimal maintenance and no specialized training, unlike live animals.</p>
 <br/>
 
-<br/>
-<br/>
-<br/>
 <p><img alt="alt marketing" src="/assets/images/${name}/${name}_post_01.jpg" /></p>
 <br/>
 <br/>
 <br/>
-
-<h4>Understanding the Need</h4>
+<h3>Key Features & Competitive Advantages</h3>
+<h4>24/7 Availability</h4>
+<p>This robot operates continuously without fatigue, ensuring users receive uninterrupted guidance.</p>
 <br/>
-
-<p>For many visually impaired individuals, navigating the world can present significant challenges. Traditional guide dogs have long been a trusted companion, providing support and guidance in various environments. However, not everyone can access or care for a living guide dog. This is where the robotic dog steps in, offering a solution that is both reliable and adaptable.</p>
+<h4>Minimal Maintenance</h4>
+<p>No feeding, exercising, or vet visits—just regular battery charging and software updates. This convenience minimizes care demands on users.</p>
 <br/>
-
-<h3>Innovative Features</h3>
+<h4>Extended Lifetime</h4>
+<p>The robot’s software and hardware are upgradable, allowing for an extended lifespan and sustained performance.</p>
 <br/>
-<h4>Advanced Navigation</h4>
-
-<p>The robotic dog is equipped with sophisticated sensors and cameras that allow it to perceive its surroundings in real time. Using computer vision and machine learning algorithms, it can identify obstacles, detect changes in terrain, and recognize important landmarks. This enables the dog to navigate complex environments, such as busy streets or crowded public spaces, ensuring the safety of its user.</p>
+<h4>Scalability</h4>
+<p>Pre-trained AI models mean that multiple robots can be deployed without repetitive training, making it an ideal solution for widespread adoption.</p>
 <br/>
-
 <h4>Voice Interaction</h4>
 <p>Integrated with a large language model, the robotic dog can engage in natural, meaningful conversations with its owner. This feature is not just about navigation; it allows for real-time communication, where the dog can provide verbal updates on the environment. For example, it might say, "There’s a curb ahead," or "A person is approaching on your left," helping the user stay informed and aware of their surroundings.</p>
+<br/>
+<p><img alt="alt marketing" src="/assets/images/${name}/${name}_post_07.jpg" /></p>
+<br/>
+<h3>How It Works?</h3>
+<p>Utilizing cutting-edge sensors, deep learning algorithms, and a powerful LLM, the robot detects obstacles, scans the environment, and provides real-time navigation. Designed for safety and reliability, it empowers visually impaired users with the freedom to navigate independently.</p>
+<br/>
+<h3>Who Can Benefit?</h3>
+<h4>Visually Impaired Individuals</h4>
+<p>The robot offers 24/7 support, real-time navigation, and obstacle detection, allowing users to move freely and safely.</p>
+<br/>
+<h4>Government Agencies</h4>
+<p>Ideal for expanding accessibility programs with scalable technology, supporting smart city goals, and enhancing public infrastructure.</p>
+<br/>
+<h4>NGOs & Blind Support Organizations</h4>
+<p>By collaborating with us, organizations can help address the shortage of guide dogs and provide technology-driven mobility support to visually impaired communities.</p>
+<br/>
+<h3>Join Us in Shaping the Future of Independence</h3>
+<p>The LLM-Driven Quadruped Robot represents a breakthrough in assistive technology, offering visually impaired individuals a reliable and scalable guide. We are eager to work with partners—government bodies, non-profits, and other organizations—to bring this technology to those who need it most.
 
+Want to learn more or explore partnership opportunities? Contact us to join a movement that's redefining independence for the visually impaired.</p>
 <br/>
-<br/>
-<br/>
-<p><img alt="alt marketing" src="/assets/images/${name}/${name}_post_02.jpg" /></p>
-<br/>
-<br/>
-<br/>
-
-<p>Beyond its practical applications, the robotic dog offers emotional companionship. The presence of a responsive, interactive companion can alleviate feelings of isolation often experienced by visually impaired individuals. With features like playful interactions and comforting responses, the robotic dog can enhance the emotional well-being of its user, fostering a sense of connection and security.</p>
-<br/>
-
-<p>One of the primary concerns for users of assistive technology is safety. The robotic dog is designed with built-in fail-safes and emergency protocols. If it detects a potential hazard that it cannot navigate around, it can alert the user and suggest alternative routes. This proactive approach ensures that users can trust their robotic companion in various situations.</p>
 `;
 
 const base = (index) => ({
