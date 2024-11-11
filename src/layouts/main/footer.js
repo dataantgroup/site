@@ -70,7 +70,7 @@ export default function Footer() {
   const mainFooter = (
     <>
       <Divider />
-
+{/*
       <Container
         sx={{
           overflow: 'hidden',
@@ -83,13 +83,13 @@ export default function Footer() {
               <Stack alignItems="flex-start" spacing={3}>
                 <Logo />
 
-                {/* <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                   The starting point for your next project based on easy-to-customize Material-UI ©
                   helps you build apps faster and better.
-                </Typography> */}
+                </Typography> 
               </Stack>
 
-              {/* <Stack spacing={1} alignItems="flex-start">
+               <Stack spacing={1} alignItems="flex-start">
                 <Typography variant="h6">Community</Typography>
                 <Link variant="body2" sx={{ color: 'text.primary' }}>
                   Documentation
@@ -102,7 +102,7 @@ export default function Footer() {
                 <Link variant="body2" sx={{ color: 'text.primary' }}>
                   Contributing
                 </Link>
-              </Stack> */}
+              </Stack> 
 
               {/* <Stack spacing={2}>
                 <Stack spacing={1}>
@@ -126,9 +126,9 @@ export default function Footer() {
                     ),
                   }}
                 />
-              </Stack> */}
+              </Stack> 
 
-              <Stack spacing={2}>
+               <Stack spacing={2}>
                 <Typography variant="h6">Social</Typography>
                 <Stack direction="row" alignItems="center">
                   {_socials.map((social) => (
@@ -137,16 +137,16 @@ export default function Footer() {
                     </IconButton>
                   ))}
                 </Stack>
-              </Stack>
+              </Stack> 
 
-              {/* <Stack spacing={2}>
+               <Stack spacing={2}>
                 <Typography variant="h6">Apps</Typography>
                 <AppStoreButton />
-              </Stack> */}
+              </Stack> 
             </Stack>
           </Grid>
 
-          {/* <Grid xs={12} md={6}>
+           <Grid xs={12} md={6}>
             {mdUp ? (
               <Masonry columns={4} spacing={2} defaultColumns={4} defaultSpacing={2}>
                 {renderLists.map((list) => (
@@ -160,10 +160,10 @@ export default function Footer() {
                 ))}
               </Stack>
             )}
-          </Grid> */}
+          </Grid> 
         </Grid>
       </Container>
-
+  */}
       <Divider />
 
       <Container>

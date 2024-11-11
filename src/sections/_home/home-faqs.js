@@ -17,6 +17,8 @@ import Pattern01 from 'src/assets/illustrations/pattern/pattern-01';
 
 import Iconify from 'src/components/iconify';
 import { varFade, MotionViewport } from 'src/components/animate';
+import { paths } from 'src/routes/paths';
+import { Link } from 'react-router-dom';
 
 // ----------------------------------------------------------------------
 
@@ -129,7 +131,7 @@ export default function HomeFAQs() {
             }}
           >
             <m.div variants={varFade().inUp}>
-              <Typography variant="h3">Still Have Questions?</Typography>
+              <Typography variant="h3">If you have further enquiry, don't hesitate to contact us!</Typography>
             </m.div>
 
             <m.div variants={varFade().inUp}>
@@ -138,16 +140,16 @@ export default function HomeFAQs() {
               </Typography>
             </m.div>
 
-            <m.div variants={varFade().inUp}>
-              <Button
-                size="large"
-                color="inherit"
+            {/* <m.div variants={varFade().inUp}>
+              <Button 
+                component={Link} // Use the component prop to make the button a link
+                to={paths.eLearning.contact}
                 variant="contained"
-                href="mailto:dataantgroup@gmail.com"
               >
                 Contact us
               </Button>
-            </m.div>
+            </m.div> */}
+
           </Box>
         </Grid>
       </Grid>

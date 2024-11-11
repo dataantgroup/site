@@ -287,7 +287,7 @@ export const _roles = [
 // ----------------------------------------------------------------------
 
 export const _postTitles = [
-  'Introducing the LLM-Driven Quadruped Robot: A New Era in Assistance for the Visually Impaired',
+  'LLM-Driven Quadruped Robot for the Visually Impaired',
   'The Ultimate Guide to Productivity Hacks',
   'Exploring the Hidden Gems of [Destination]',
   'How to Master the Art of Public Speaking',

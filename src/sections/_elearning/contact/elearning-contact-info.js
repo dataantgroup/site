@@ -65,14 +65,14 @@ export default function ElearningContactInfo() {
             <Divider sx={{ borderStyle: 'dashed', width: 1 }} />
 
             <Stack spacing={1} alignItems={{ xs: 'center', md: 'flex-start' }}>
-              <Typography variant="overline">Follow Us</Typography>
+              {/* <Typography variant="overline">Follow Us</Typography>
               <Stack direction="row">
                 {_socials.map((social) => (
                   <IconButton key={social.value} color="inherit">
                     <Iconify icon={social.icon} />
                   </IconButton>
                 ))}
-              </Stack>
+              </Stack> */}
             </Stack>
           </Stack>
         </Grid>

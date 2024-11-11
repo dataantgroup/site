@@ -81,9 +81,9 @@ export default function ElearningLandingHero() {
                 </Typography>
 
                 <Stack spacing={3} alignItems="center" direction={{ xs: 'column', md: 'row' }}>
-                  <Button color="inherit" size="large" variant="contained">
+                  {/* <Button color="inherit" size="large" variant="contained">
                     Ready Start
-                  </Button>
+                  </Button> */}
 
                   <Stack direction="row" alignItems="center" sx={{ typography: 'h6' }}>
                     <Fab size="medium" color="info" onClick={videoOpen.onTrue} sx={{ mr: 1 }}>

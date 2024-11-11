@@ -4,13 +4,14 @@ import { _tags } from './assets';
 // ----------------------------------------------------------------------
 
 const content = (name) => `
-<h3>Revolutionizing Independence Through Innovation</h3>
 <p>For visually impaired individuals, traditional guide dogs have long provided critical support. However, the training process is time-consuming and costly, and guide dogs have a limited working lifespan, often only 6-10 years. Due to these limitations, many individuals in need lack access to this essential service.
 
 Our LLM-Driven Quadruped Robot for Visually Impaired Guidance provides a scalable, reliable alternative. Equipped with advanced AI and robotic technology, it offers 24/7 support, requiring minimal maintenance and no specialized training, unlike live animals.</p>
 <br/>
 
-<p><img alt="alt marketing" src="/assets/images/${name}/${name}_post_01.jpg" /></p>
+<p style="text-align: center;">
+  <img alt="alt marketing" src="/assets/images/${name}/${name}_post_01.png" style="display: block; margin-left: auto; margin-right: auto; width: 600px;" />
+</p>
 <br/>
 <br/>
 <br/>
@@ -30,7 +31,7 @@ Our LLM-Driven Quadruped Robot for Visually Impaired Guidance provides a scalabl
 <h4>Voice Interaction</h4>
 <p>Integrated with a large language model, the robotic dog can engage in natural, meaningful conversations with its owner. This feature is not just about navigation; it allows for real-time communication, where the dog can provide verbal updates on the environment. For example, it might say, "There’s a curb ahead," or "A person is approaching on your left," helping the user stay informed and aware of their surroundings.</p>
 <br/>
-<p><img alt="alt marketing" src="/assets/images/${name}/${name}_post_07.jpg" /></p>
+<p style="text-align: center;"><img alt="alt marketing" src="/assets/images/${name}/${name}_post_07.jpg" width="400"/></p>
 <br/>
 <h3>How It Works?</h3>
 <p>Utilizing cutting-edge sensors, deep learning algorithms, and a powerful LLM, the robot detects obstacles, scans the environment, and provides real-time navigation. Designed for safety and reliability, it empowers visually impaired users with the freedom to navigate independently.</p>
