@@ -152,9 +152,9 @@ export default function ElearningPostView() {
 
             <Markdown content={content} firstLetter />
 
-            <PostTags tags={tags} />
+            {/* <PostTags tags={tags} /> */}
 
-            <PostSocialsShare />
+            {/* <PostSocialsShare /> */}
 
             <Divider sx={{ mt: 8 }} />
 
@@ -173,7 +173,7 @@ export default function ElearningPostView() {
 
       {/* <ElearningNewsletter /> */}
 
-      <Popover
+      {/* <Popover
         open={!!open}
         onClose={handleClose}
         anchorEl={open}
@@ -191,7 +191,7 @@ export default function ElearningPostView() {
             Share via {social.label}
           </MenuItem>
         ))}
-      </Popover>
+      </Popover> */}
     </>
   );
 }
